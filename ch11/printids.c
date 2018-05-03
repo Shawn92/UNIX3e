@@ -5,7 +5,7 @@ pthread_t ntid;
 
 void
 printids(const char *s) {
-	pid_t              pid;
+	pid_t         pid;
 	pthread_t     tid;
 	pid = getpid();
 	tid = pthread_self();
